@@ -1,0 +1,282 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Index Pagina */
+    .index {background-image: URL(Pictures/Picture.avif);
+        height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        }
+
+        .text {  font-family: 'Modern Antiqua', cursive;
+            color: azure;
+            font-size: 20px;
+           }
+           .text h1 {
+            color: yellow;
+            padding: 20px;
+            font-size: 30px;
+           }
+
+/* Project */
+.project {
+    background-image: url('Pictures/image.avif');
+    background-size: cover;
+    padding: 50px;
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project h1 {
+    color: yellow;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.project a{
+    display: grid;
+    color: lawngreen;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.project a:hover {  
+    color:yellow;
+    transition: 0.3s all ease-in-out;
+    letter-spacing: 2px;}
+
+/*Skills */
+.fundal {
+    background-color: rgb(108, 255, 211);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title h1 {
+    font-size: 30px;
+    color: purple;
+}
+    .container {  
+        font-family: 'Modern Antiqua', cursive;
+        color:purple;
+        text-align: center;
+        display: grid;
+        padding: 30px;
+        grid-template-columns: 50% 50%;
+        }
+        .galerie h3 {
+            color:blue;
+            font-size: 20px;
+        }
+.container img {width:15rem; height: 15rem; border-radius: 50%;
+padding: 30px; }
+
+.galerie:hover {
+            transform: scale(1.04);
+            transition: all 1s ease;
+            filter: grayscale(0);
+        }
+.title {      
+    display: flex;
+    justify-content: center;
+}
+.skiluri h1 {font-size: 30px;}
+.skiluri {
+    color: rgb(22, 80, 28);
+    font-size: 20px;
+    padding: 30px;
+}
+
+/*Hobby + Family + Games */
+.pasiuni {
+    background-color: rgb(61, 255, 61);
+}
+
+.patrate-invelit {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.patrate-invelit > .patrate {
+    width: 1000px;
+}
+
+.patrate-invelit > .patrate > .patrat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:-4px;
+}
+
+.patrat > .img-invelit img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.hobbi-text {
+    font-size: 20px;
+}
+
+    .img-invelit:hover {
+        transform: scale(1.07);
+        transition: all 1s ease;
+        filter: grayscale(0);
+    }
+
+
+.patrat > .patrat-text {
+    font-size: 20px;
+    font-family: 'Modern Antiqua', cursive;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;}
+
+.patrat > .patrat-text h1 {
+    color:blueviolet;
+    font-size: 30px;
+    padding: 10px;
+}
+.fun {    
+    display:flex; 
+    justify-content:space-around;         
+    align-items:center; 
+    height: 170px; 
+    background-color:orange;      
+    text-align: center;
+}
+
+.imag img {width: 7rem; height: 7rem; border-radius: 50%;}
+.imag a {        text-decoration: none;
+    font-family: 'Modern Antiqua', cursive;
+    color: purple}
+.imag:hover {
+        transform: scale(1.07);
+        transition: all 1s ease;
+        filter: grayscale(0);
+    }
+    
+.family {
+    background-color: plum;
+}
+.games {
+background-color: aqua;
+}
+.story {
+    background-color: rgb(189, 255, 57);
+}
+
+/*Recycle */
+.recycle {background-image: URL(Pictures/world1.jpg);
+    padding: 50px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+color: gold;
+}
+.recycle h1{
+    padding: 10px;
+    font-size: 25px;
+}
+.recycle p{
+    padding: 3px;
+    font-size: 20px;
+}
+
+/*Contact */
+.contact {background-image: URL(Pictures/house.avif);
+    padding: 100px;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ font-family: 'Modern Antiqua', cursive;
+color: yellow;
+}
+.contact p {
+    font-size: 20px;
+    padding: 10px;
+}
+.contact h1 {
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 10px;
+}
+.contact a {   
+    font-size: 30px;
+text-decoration: none;
+transition: 0,5s;
+}
+.contact a:hover {  
+    letter-spacing: 2px;
+ }
+.name-a {    
+        color: aqua;
+        text-decoration: none;
+        font-size: 0,9em;
+        transition: 0.5s;
+    }
+    
+/*cookin*/
+.cook {
+    background-color:lawngreen;
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cook > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: purple;
+}
+.cooki {
+    background-color:pink;
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cooki > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: purple;
+}
+
+/* Footer */
+.footer {
+    background-color: purple;
+    color:yellow;
+    font-family:  'Cormorant SC', serif;    
+    display: flex;
+    justify-content: center;
+    flex: column;
+    align-items: center;
+    height: 25px;
+}
+
+
+
+
